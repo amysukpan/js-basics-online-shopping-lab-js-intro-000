@@ -44,7 +44,26 @@ function total() {
 
 function removeFromCart(item) {
   // write your code here
-  cart.itemName.indexof(item)
+  var foundItem=false
+  var allItems=cart.length
+
+  if (allItems==0) {
+    return "That item is not in your cart."
+  } else {
+    while (i!=allItems){
+      if (cart.itemName[i]==item) {
+        foundItem=true
+        break
+      } else i++
+      
+    }
+    if foundItem {
+       cart.splice(i,1)
+       return cart
+    } else return "That item is not in your cart."
+    
+  }
+    
 }
 
 function placeOrder(cardNumber) {
