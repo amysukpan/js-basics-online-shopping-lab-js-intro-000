@@ -28,6 +28,7 @@ function viewCart() {
               listItem += `, and ${cart[i].itemName} at $${cart[i].itemPrice}`
       }
       listItem +='.'
+      return listItem
   } else return "Your shopping cart is empty."
 }
 
