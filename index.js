@@ -47,7 +47,7 @@ function removeFromCart(item) {
   var foundItem=false
   var allItems = cart.length
   var i=0
-  
+
   if (allItems == 0) {
     return "That item is not in your cart."
   } else {
