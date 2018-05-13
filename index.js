@@ -45,7 +45,7 @@ function total() {
 function removeFromCart(item) {
   // write your code here
   var foundItem=false
-  var allItems=cart.length
+  var allItems = cart.length
 
   if (allItems==0) {
     return "That item is not in your cart."
