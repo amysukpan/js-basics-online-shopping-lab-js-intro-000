@@ -25,7 +25,7 @@ function viewCart() {
           if (i==0)
               listItem += `${cart[i].itemName} at $${cart[i].itemPrice}`
           else
-              listItem += `, ${cart[i].itemName} at $${cart[i].itemPrice}`
+              listItem += `, and ${cart[i].itemName} at $${cart[i].itemPrice}`
       }
       listItem +='.'    
   } else return "Your shopping cart is empty"
