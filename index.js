@@ -27,11 +27,15 @@ function viewCart() {
           else
               listItem += `, and ${cart[i].itemName} at $${cart[i].itemPrice}`
       }
-      listItem +='.'    
+      listItem +='.'
   } else return "Your shopping cart is empty"
 }
 
 function total() {
+  var totalprice=0
+  for (i=0;i<cart.length;i++)
+    totalprice += cart[i].itemPrice
+  return totalprice
   // write your code here
 }
 
