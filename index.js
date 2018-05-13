@@ -52,10 +52,10 @@ function removeFromCart(item) {
     return "That item is not in your cart."
   } else {
     while (i<=allItems) {
-      //if (cart.itemName[i]===item) {
+      /*if (cart.itemName[i]===item) {
         foundItem=true
         break
-      } else i++
+      } else*/ i++
 
     }
     if (foundItem) {
