@@ -55,7 +55,7 @@ function removeFromCart(item) {
       if (cart[i].itemName===item) {
         foundItem=true
         break
-      } else*/ i++
+      } else i++
 
     }
     if (foundItem) {
