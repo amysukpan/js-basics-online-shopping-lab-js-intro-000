@@ -58,7 +58,7 @@ function removeFromCart(item) {
       } else i++
 
     }
-    if foundItem {
+    if (foundItem) {
        cart.splice(i,1)
        return cart
     } else return "That item is not in your cart."
