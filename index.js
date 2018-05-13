@@ -54,6 +54,7 @@ function removeFromCart(item) {
     while (i<=allItems) {
       if (cart.itemName[i]===item) {
         foundItem=true
+        break
       } else i++
 
     }
