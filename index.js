@@ -28,7 +28,7 @@ function viewCart() {
               listItem += `, and ${cart[i].itemName} at $${cart[i].itemPrice}`
       }
       listItem +='.'
-  } else return "Your shopping cart is empty"
+  } else return "Your shopping cart is empty."
 }
 
 function total() {
