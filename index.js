@@ -23,7 +23,7 @@ function viewCart() {
       var listItem = "In your cart, you have "
       for (let i=0;i<numItem;i++){
           if ( i==0)
-              listItem += `${cart[i].itemName} at ${cart[i].itemPrice}`
+              listItem += `${cart[i].itemName} at $${cart[i].itemPrice}`
           else
               listItem += `, and ${cart[i].itemName} at $${cart[i].itemPrice}`
       }
