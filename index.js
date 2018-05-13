@@ -51,7 +51,7 @@ function removeFromCart(item) {
   if (allItems == 0) {
     return "That item is not in your cart."
   } else {
-    while (i<=allItems) {
+    while (i<allItems) {
       if (cart[i].itemName===item) {
         foundItem=true
         break
